@@ -1,0 +1,52 @@
+.text-exprince {
+  width: 172px;
+  height: 19px;
+  left: 180px;
+  top: 961px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.title-exprience {
+  width: 579px;
+  height: 78px;
+  left: 180px;
+  top: 994px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: justify;
+}
+.pragrap-title {
+  width: 579px;
+  height: 126px;
+  left: 180px;
+  top: 1086px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  color: #575757;
+  text-align: justify;
+  letter-spacing: -0.005em;
+}
+.bg-style {
+  width: 148px;
+  height: 148px;
+  left: 97px;
+  top: 0px;
+}
+
+.style-w {
+  width: 321px;
+  height: 321px;
+  left: 0px;
+  top: 10px;
+}

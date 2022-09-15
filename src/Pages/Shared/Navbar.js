@@ -2,8 +2,28 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+    const menuItems = <>
+         <li className="hover:text-[#2D89FF]">
+              <a>Home</a>
+            </li>
+            <li className="hover:text-[#2D89FF]">
+              <a>About</a>
+            </li>
+            <li className="hover:text-[#2D89FF]">
+              <a>Deopertments</a>
+            </li>
+            <li className="hover:text-[#2D89FF]">
+              <a>Pages</a>
+            </li>
+            <li className="hover:text-[#2D89FF]">
+              <a>Blog</a>
+            </li>
+            <li className="hover:text-[#2D89FF]">
+              <a>Contact</a>
+            </li>
+    </>
   return (
-    <div class="navbar bg-base-100 containers">
+    <div class="navbar bg-base-100 containers h-[80px] w-[1366px]">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -24,50 +44,22 @@ const Navbar = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="menu menu-compact dropdown-content mt-3 p-2  bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li tabindex="0">
-              <a class="justify-between">
-                Parent
-                <svg
-                  class="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+           {menuItems}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <p className="text-[#2D89FF] text-2xl font-bold">
+          Doc<span className="text-[#642DFF]">mic</span>
+        </p>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
+        <ul className="menu menu-horizontal p-0 btn-text">
+           {menuItems}
         </ul>
       </div>
-      <div class="navbar-end">
-        <a class="btn">Get started</a>
+      <div className="btn-degsin w-[170px] ml-10 h-[50px] bg-[#2D89FF]">
+        <a className="text-[#FFFFFF] btn-text">Get started</a>
       </div>
     </div>
   );

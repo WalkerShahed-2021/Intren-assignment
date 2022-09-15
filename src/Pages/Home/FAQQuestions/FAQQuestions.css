@@ -1,0 +1,71 @@
+.pluse-degsin {
+  width: 319px;
+  height: 36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: justify;
+  letter-spacing: -0.005em;
+
+  /* text b */
+
+  color: #1e1e1e;
+}
+.degsin-pluse{
+  /* width: 319px; */
+  height: 38px;
+  
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  
+  text-align: justify;
+  letter-spacing: -0.005em;
+  
+  /* text b */
+  
+  color: #1E1E1E;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.small-sec{
+  width: 211px;
+  height: 58px;
+  /* left: 779px;
+  top: 2020px; */
+  background: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
+.img-logo{
+width: 25.56px;
+height: 30px;
+/* left: 799px;
+top: 2034px; */
+}
+.p-text{
+  width: 111px;
+height: 30px;
+left: 844px;
+top: 2034px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: justify;
+letter-spacing: -0.005em;
+}

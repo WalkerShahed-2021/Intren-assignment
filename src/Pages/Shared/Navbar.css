@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* html, body {
     width: 100vw;
@@ -9,6 +9,24 @@
     font-family: 'Open Sans', sans-serif;
 } */
 .containers {
-    width: 60%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
+
+.btn-degsin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.btn-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+

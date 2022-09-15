@@ -1,0 +1,54 @@
+.footer-bg {
+  height: 288px;
+  left: -4px;
+  top: 2709px;
+  background: #e9eef7;
+}
+.footer-pragrap {
+  width: 237px;
+  height: 63px;
+  left: 180px;
+  top: 2783px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.005em;
+}
+.img-logo {
+  left: 180px;
+  top: 2873px;
+  background: #e8eef6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08),
+    inset 0px 1px 4px rgba(0, 0, 0, 0.05);
+}
+.footer-p {
+  /* width: 73px; */
+  height: 17px;
+  left: 549px;
+  top: 2752px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.005em;
+
+  color: #642dff;
+}
+.copyrigth {
+  width: 259px;
+  height: 15px;
+  left: 176px;
+  top: 2950px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.005em;
+}

@@ -1,0 +1,58 @@
+.services {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: black;
+  margin: 5px;
+}
+.cart {
+  width: 236px;
+  height: 152px;
+  left: 180px;
+  top: 753px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(55, 55, 55, 0.08);
+  border-radius: 5px;
+  margin: 50px;
+}
+.text-btn {
+  width: 97px;
+  height: 19px;
+  left: 192px;
+  top: 862px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.catagory {
+  width: 105px;
+  height: 15px;
+  left: 447.93px;
+  top: 777px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.catagory2{
+  width: 211.74px;
+height: 34px;
+left: 191.93px;
+top: 804px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: -0.005em;
+}

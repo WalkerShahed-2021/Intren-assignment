@@ -1,0 +1,121 @@
+.p-tasti {
+  width: 151px;
+  height: 19px;
+  left: 608px;
+  top: 2228px;
+
+  /* font-family: "Inter"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* seceondary */
+
+  color: #642dff;
+}
+.h2-testi {
+  width: 322px;
+  height: 39px;
+
+  /* font-family: "Inter"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  /* text b */
+
+  color: #1e1e1e;
+}
+.tastimonial-cart {
+  width: 664px;
+  height: 314px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.img-iqbal {
+  height: 228px;
+  width: 228px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.img-size {
+  background: url("../../../assets/images/x.jpg");
+  /* width: 130px;
+  height: 96px; */
+  left: 539px;
+  top: -20px;
+}
+.p-iqbal {
+  width: 127px;
+  height: 17px;
+  left: 24px;
+  top: 24px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.005em;
+
+  color: #222222;
+}
+.p-iqbal2 {
+  width: 67px;
+  height: 15px;
+  left: 24px;
+  top: 49px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: -0.005em;
+
+  color: #000000;
+}
+.p-iqbal3 {
+  width: 382px;
+  height: 126px;
+  left: 24px;
+  top: 78px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  text-align: justify;
+  letter-spacing: -0.005em;
+
+  color: #575757;
+}
+.img-pluse {
+  width: 86px;
+  height: 86px;
+  left: 6px;
+  top: 198px;
+
+  background: #ece6ff;
+}
+.cart-iqbal {
+  height: 314px;
+  width: 664px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+}
